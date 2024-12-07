@@ -3,7 +3,7 @@ Contributors: afthemes
 Requires at least: 4.9
 Requires PHP: 5.6
 Tested up to: 6.7
-Stable tag: 1.2.14
+Stable tag: 1.2.15
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: news, blog, entertainment, one-column, two-columns, three-columns, four-columns, grid-layout, block-patterns, block-styles, left-sidebar, right-sidebar, custom-header, flexible-header, custom-background, custom-logo, custom-menu, custom-colors, featured-images, full-width-template, post-formats, rtl-language-support, footer-widgets, translation-ready, theme-options, threaded-comments, wide-blocks
@@ -48,6 +48,10 @@ NewsMore includes support for the following plugins:
 - **Yoast SEO**: Supports enhanced SEO features and breadcrumbs for improved visibility.
 
 == Change-log ==
+= 1.2.15 - Dec 07 2024 =
+* Update - Style improvement
+* Update - Block Style improvement
+
 = 1.2.14 - Dec 06 2024 =
 * Update - Style improvement
 * Update - Block Style improvement
