@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: NewsMore is a high-performance and versatile WordPress theme designed for news, blog, and magazine websites. Built on the lightweight MoreNews parent theme, it offers over 30 custom widgets, block patterns, and flexible layout options for dynamic content presentation. Fully compatible with Gutenberg and Elementor, it ensures easy customization, while its multilingual and RTL support, including demo content in languages like English, Chinese, Spanish, French, Japanese, and Arabic, makes it ideal for global publishers. With seamless WooCommerce integration, light/dark mode options, optimized SEO settings, and fast loading speeds, NewsMore provides everything needed for a professional, modern, and responsive site. Explore demos and documentation at https://afthemes.com/products/newsmore/ 
 Template: morenews
-Version: 1.2.21
+Version: 1.2.22
 Requires at least: 4.0
 Requires PHP: 5.3
 Tested up to: 6.7
@@ -154,16 +154,6 @@ a.comment-reply-link {
 .aft-dark-mode .wp-calendar-table tbody,
 .aft-dark-mode #wp-calendar tbody {
     color: #ffffff;
-}
-
-
-body.aft-dark-mode .aft-masonry-archive-posts .no-post-image .read-img, 
-body.aft-dark-mode .af-reated-posts.morenews-customizer .no-post-image .read-img.read-bg-img {
-    height: unset !important;
-    background: transparent;
-    padding-top: 0;
-    display: flex;
-    align-items: center;
 }
 
 .gallery-caption {
