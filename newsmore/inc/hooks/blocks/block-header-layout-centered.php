@@ -4,14 +4,20 @@
      *
      * @package MoreNews
      */
+
+     $select_header_image_mode = morenews_get_option('select_header_image_mode');
     $inline_style ='';
     $morenews_class = '';
     $morenews_background = '';
     if (has_header_image()) {
-        $morenews_class = 'af-header-image  data-bg';
-        $morenews_background = get_header_image();
-        // Set inline style for background-image
-        $inline_style = 'style="background-image: url(' . esc_url($morenews_background) . ');"';
+        if ($select_header_image_mode == 'above') {
+            $morenews_class = 'af-header-image';    
+          } else {
+          $morenews_class = 'af-header-image data-bg';
+          $morenews_background = get_header_image();
+          // Set inline style for background-image
+          $inline_style = 'style="background-image: url(' . esc_url($morenews_background) . ');"';
+          }
     }
 $morenews_show_top_header_section = morenews_get_option('show_top_header_section');
 ?>
@@ -40,6 +46,11 @@ $morenews_show_top_header_section = morenews_get_option('show_top_header_section
 
     <div class="mid-header">
         <div class="container-wrapper">
+        <?php if (has_header_image() && $select_header_image_mode == 'above') : ?>
+    <div class="header-image-above-site-title">
+        <img src="<?php echo esc_url(get_header_image()); ?>" alt="<?php echo esc_attr(get_bloginfo('title')); ?>" />
+        </div>
+    <?php endif; ?>
             <div class="mid-bar-flex">
                 <div class="logo">
                     <?php do_action('morenews_load_site_branding'); ?>
