@@ -60,6 +60,8 @@ $morenews_show_top_header_section = morenews_get_option('show_top_header_section
     </div>
 
     <?php
+    $morenews_banner_advertisement = morenews_get_option('banner_advertisement_section');
+    if (('' != $morenews_banner_advertisement) || is_active_sidebar('home-advertisement-widgets')) {
         $morenews_banner_advertisement_scope = morenews_get_option('banner_advertisement_scope');
         if ($morenews_banner_advertisement_scope == 'front-page-only'):
             if (is_home() || is_front_page()):
@@ -80,7 +82,8 @@ $morenews_show_top_header_section = morenews_get_option('show_top_header_section
                     </div>
                 </div>
             </div>
-        <?php endif; ?>
+        <?php endif;
+        } ?>
 
 </div>
 <div id="main-navigation-bar" class="bottom-header">
