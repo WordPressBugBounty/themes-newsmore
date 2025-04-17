@@ -18,7 +18,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 NewsMore is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-NewsMore is a child theme of "MoreNews". MoreNews Theme is licensed under the GPL v2. Copyright 2024 AF themes
+NewsMore is a child theme of "MoreNews". MoreNews Theme is licensed under the GPL v2. Copyright 2025 AF themes
 NewsMore is distributed under the terms of the GNU GPL v2 or later.
 
 == Description ==
