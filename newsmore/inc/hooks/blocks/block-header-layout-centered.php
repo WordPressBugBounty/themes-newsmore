@@ -86,6 +86,13 @@ $morenews_show_top_header_section = morenews_get_option('show_top_header_section
         } ?>
 
 </div>
+<?php if (is_active_sidebar('express-off-canvas-panel')) : ?>
+                    
+                    <div id="sidr" class="primary-background">
+                        <a class="sidr-class-sidr-button-close" href="#sidr-nav"><i class="fa fa-window-close"></i></a>
+                        <?php dynamic_sidebar('express-off-canvas-panel'); ?>
+                    </div>
+                <?php endif; ?>
 <div id="main-navigation-bar" class="bottom-header">
     <div class="container-wrapper">
         <div class="bottom-nav">
@@ -94,10 +101,7 @@ $morenews_show_top_header_section = morenews_get_option('show_top_header_section
                     <div class="off-cancas-panel">
                         <?php do_action('morenews_load_off_canvas'); ?>
                     </div>
-                    <div id="sidr" class="primary-background">
-                        <a class="sidr-class-sidr-button-close" href="#sidr-nav"><i class="fa fa-window-close"></i></a>
-                        <?php dynamic_sidebar('express-off-canvas-panel'); ?>
-                    </div>
+                    
                 <?php endif; ?>
             <?php do_action('morenews_action_main_menu_nav'); ?>
             <div class="search-watch">
