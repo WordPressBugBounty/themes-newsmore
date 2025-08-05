@@ -74,8 +74,7 @@ function newsmore_filter_default_theme_options($defaults)
     $defaults['aft_custom_title']           = __('Watch', 'newsmore');
     $defaults['select_main_banner_layout_section'] = 'layout-1';
     $defaults['select_main_banner_order'] = 'order-3';
-    $defaults['select_update_post_filterby'] = 'cat';   
-    // $defaults['global_fetch_content_image_setting'] = 'disable';
+    $defaults['select_update_post_filterby'] = 'cat'; 
     $defaults['secondary_color'] = '#002868';
     $defaults['global_show_min_read'] = 'no';
     $defaults['frontpage_content_type']  = 'frontpage-widgets-and-content';
