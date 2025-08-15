@@ -48,6 +48,13 @@ NewsMore includes support for the following plugins:
 - **Yoast SEO**: Supports enhanced SEO features and breadcrumbs for improved visibility.
 
 == Change-log ==
+= 1.3.1 - Aug 15 2025 =
+* New - Light/Dark mode toggle and dark mode design improvements
+* Options - Customizing > Header Options > Header Settings > Site Mode Switch
+* Update - Admin notice improvement
+* Update - Block Style improvement
+* Fixed - Some styling glitch
+
 = 1.2.48 - Jun 24 2025 =
 * Update - Footer Style improvement
 * Fixed - Some styling glitch
