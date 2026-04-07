@@ -5,7 +5,7 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: NewsMore is a performance-driven WordPress child theme of MoreNews, designed for publishers who prioritize widget-intensive and block-based editorial layouts. It includes over 30 custom widgets, advanced block patterns, and flexible header and footer builders for code-free assembly. Fully compatible with the Block Editor and Elementor, the theme ensures high performance through SEO and Core Web Vitals optimization. It is AMP-ready, WooCommerce-integrated, and WCAG-accessible. The theme supports global content through RTL and multilingual demos in English, Chinese, Spanish, French, and Japanese. https://afthemes.com/products/newsmore/
 Template: morenews
-Version: 1.3.27
+Version: 1.3.28
 Requires at least: 4.0
 Requires PHP: 5.0
 Tested up to: 6.9
@@ -361,18 +361,7 @@ body.aft-dark-mode .widget>ul>li {
     border-top-color: rgba(255, 255, 255, 0.2);
 }
 
-body.aft-dark-mode .archive-layout-list .no-post-image .read-bg-img,
-body.aft-dark-mode .archive-layout-grid .no-post-image .read-bg-img,
-body.aft-dark-mode .featured-posts.morenews-customizer .no-post-image .read-bg-img,
-body.aft-dark-mode .grid-layout.morenews-customizer .no-post-image .read-bg-img,
-body.aft-dark-mode .latest-posts-grid .no-post-image .read-bg-img {
-    height: unset !important;
-    background: transparent;
-    padding-top: 0;
-    display: flex;
-    aspect-ratio: unset !important;
-    flex-direction: column;
-}
+
 
 article.sticky .read-single.no-post-image > div.read-img::before{
     top: 0;
