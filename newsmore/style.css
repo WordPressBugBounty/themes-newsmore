@@ -5,10 +5,10 @@ Author:     AF themes
 Author URI: https://afthemes.com/
 Description: NewsMore is a performance-driven WordPress child theme of MoreNews, designed for publishers who prioritize widget-intensive and block-based editorial layouts. It includes over 30 custom widgets, advanced block patterns, and flexible header and footer builders for code-free assembly. Fully compatible with the Block Editor and Elementor, the theme ensures high performance through SEO and Core Web Vitals optimization. It is AMP-ready, WooCommerce-integrated, and WCAG-accessible. The theme supports global content through RTL and multilingual demos in English, Chinese, Spanish, French, and Japanese. https://afthemes.com/products/newsmore/
 Template: morenews
-Version: 2.0.4
+Version: 2.1.5
 Requires at least: 4.0
 Requires PHP: 5.0
-Tested up to: 7.0
+Tested up to: 7.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: newsmore
@@ -160,4 +160,37 @@ article.sticky .af-double-column.no-post-image .read-single > div.read-img::befo
     body.single-post .entry-title, body h1.page-title {
         font-size: 24px;
     }
+}
+.aft-dark-mode .wp-block-archives-list.wp-block-archives a:not(.has-text-color):hover,
+.aft-dark-mode .wp-block-latest-posts a:not(.has-text-color):hover, 
+.aft-dark-mode .wp-block-categories-list.wp-block-categories a:not(.has-text-color):hover,
+.aft-dark-mode .wp-block-latest-comments li.wp-block-latest-comments__comment a:hover {
+    color: #fff;
+}
+.entry-content .wp-block-rss li a, 
+.entry-content .wp-block-categories a, 
+.entry-content .wp-block-archives a,
+.entry-content .wp-block-latest-comments li a, 
+.entry-content .wp-block-latest-posts li a, 
+.entry-content .wp-block-tag-cloud a {
+    color: inherit !important;
+}
+
+.wp-block-rss li a,
+.wp-block-categories a, 
+.wp-block-archives a{
+    font-weight: 700;
+    transition: all 0.075s linear;
+}
+.entry-content section.morenews-author-bio {
+    margin-top: 24px;
+}
+
+.wp-block-comment-content a,
+.comments-area .comment-content a,
+.widget_text a,
+.entry-content>[class*="wp-block-"] a:hover,
+.entry-content>:is(ul, ol, p) a:hover,
+.entry-content>:is(ul, ol, h1, h2, h3, h4, h5, h6, p) a {
+    text-decoration: auto;
 }
